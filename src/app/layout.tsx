@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 import { Poppins, Lobster } from "next/font/google";
 import Header from "@/componentes/header/page";
@@ -11,10 +11,6 @@ const description =
 const keywords =
   "bolachas, biscoitos, fábrica de bolachas, produtos são bento, são bento, bolacha doce, bolacha salgada";
 const baseUrl = "https://produtos-sao-bento.com/";
-
-export const viewport: Viewport = {
-  themeColor: "#6b0c8d"
-}
 
 export const metadata: Metadata = {
   title: {
