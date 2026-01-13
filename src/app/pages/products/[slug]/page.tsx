@@ -7,9 +7,9 @@ import { Product } from "@/types/products";
 import { Metadata } from "next";
 
 interface ProductDetailsProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 const baseUrl = "https://produtos-sao-bento.com/";
@@ -23,9 +23,10 @@ function getProducts(slug: string): Product | undefined {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const product = getProducts(params.slug);
+  const { slug } = await params;
+  const product = getProducts(slug);
 
   if (!product) {
     return {};
@@ -65,8 +66,9 @@ export async function generateMetadata({
   };
 }
 
-export default function Products({ params }: ProductDetailsProps) {
-  const produtoSlug = params.slug;
+export default async function Products({ params }: ProductDetailsProps) {
+  const { slug } = await params;
+  const produtoSlug = slug;
 
   const currentIndex = products.findIndex((p) => p.slug === produtoSlug);
   const product: Product | undefined = products[currentIndex];
