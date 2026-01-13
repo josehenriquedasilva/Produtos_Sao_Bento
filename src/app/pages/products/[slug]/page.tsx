@@ -14,7 +14,6 @@ interface ProductDetailsProps {
 
 const baseUrl = "https://produtos-sao-bento.com/";
 const brandName = "Produtos São Bento";
-const shortTitle = "P. São Bento";
 
 function getProducts(slug: string): Product | undefined {
   return products.find((p) => p.slug === slug);
@@ -32,15 +31,12 @@ export async function generateMetadata({
     return {};
   }
 
-  const productTitle = `${product.nome} | ${brandName}`;
+  const productTitle = `${product.nome}`;
   const productDescription = `Detalhes, ingredientes e informações nutricionais da bolacha ${product.nome}: ${product.igredientes}.`;
   const fullImageUrl = `${baseUrl}${product.imagem}`;
 
   return {
-    title: {
-      default: productTitle,
-      template: `%s | ${shortTitle}`,
-    },
+    title: productTitle,
     description: productDescription,
 
     alternates: {

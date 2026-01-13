@@ -5,7 +5,7 @@ import Header from "@/componentes/header/page";
 import Footer from "@/componentes/footer/footer";
 
 const title = "Produtos São Bento";
-const shortTitle = "P. São Bento";
+const fullBrandTitle = "Produtos São Bento - Com Amor e Qualidade para Sua Mesa.";
 const description =
   "Descubra o sabor e a tradição das bolachas Produtos São Bento. Com amor e qualidade para sua mesa. Entre em contato e peça já!";
 const keywords =
@@ -14,8 +14,8 @@ const baseUrl = "https://produtos-sao-bento.com/";
 
 export const metadata: Metadata = {
   title: {
-    default: `${title} | Com Amor e Qualidade para Sua Mesa`,
-    template: `%s | ${shortTitle}`,
+    default: `${title} - Com Amor e Qualidade para Sua Mesa.`,
+    template: `%s | ${fullBrandTitle}`,
   },
   description: description,
   keywords: keywords.split(",").join(", "),
