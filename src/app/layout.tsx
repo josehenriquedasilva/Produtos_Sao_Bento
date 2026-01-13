@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Poppins, Lobster } from "next/font/google";
 import Header from "@/componentes/header/page";
@@ -11,6 +11,10 @@ const description =
 const keywords =
   "bolachas, biscoitos, fábrica de bolachas, produtos são bento, são bento, bolacha doce, bolacha salgada";
 const baseUrl = "https://produtos-sao-bento.com/";
+
+export const viewport: Viewport = {
+  themeColor: "#6b0c8d"
+}
 
 export const metadata: Metadata = {
   title: {
@@ -38,7 +42,6 @@ export const metadata: Metadata = {
   creator: title,
   publisher: title,
 
-  themeColor: "#6b0c8d",
   icons: {
     icon: "/favicon.svg",
     apple: "/apple-touch-icon.png",
@@ -63,7 +66,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  manifest: "/webmanifest.json",
+  manifest: "/manifest.json",
   openGraph: {
     title: `${title} | Com Amor e Qualidade para Sua Mesa`,
     description: description,
