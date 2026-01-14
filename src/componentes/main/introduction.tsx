@@ -22,7 +22,7 @@ export default function Introduction() {
               </Link>
             </FadeInOnScroll>
           </div>
-          <div className="md:w-[50%] bg-[#F17e21] flex justify-center items-center lg:pr-30">
+          <div className="md:w-[50%] bg-[#F17e21] flex justify-center items-center lg:pr-50">
             <Image
               src="/mascote-SB.png"
               alt="Mascote P. São Bento"
