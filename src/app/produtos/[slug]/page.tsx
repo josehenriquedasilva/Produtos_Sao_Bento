@@ -133,7 +133,7 @@ export default async function Products({ params }: ProductDetailsProps) {
             className="w-auto h-80 "
           />
         </section>
-        <section className="flex flex-col gap-5 lg:flex-row lg:w-[80vw] md:mx-auto lg:mb-10">
+        <section className="flex flex-col gap-5 lg:flex-row lg:w-[80vw] md:mx-auto lg:mb-10 lg:justify-center">
           <section className="flex flex-col gap-5">
             <section className="lg:w-[600px]">
               <ul className="flex flex-col gap-3 list-disc px-10">
@@ -164,15 +164,15 @@ export default async function Products({ params }: ProductDetailsProps) {
           </section>
           <section>
             <Link
-              href={`/pages/products/${nextProduct.slug}`}
+              href={`/produtos/${nextProduct.slug}`}
               className="group"
             >
               <div className="bg-[#f17f2183] group-hover:bg-[#f17f21c0] transition-colors duration-200 ease-in-out w-[90%] md:w-[95%] mx-auto flex flex-col items-center p-5 rounded-md gap-5 mb-5">
-                <h3 className="flex items-center gap-1 text-xl font-bold font-[Poppins] text-[#4A148C] text-shadow-md/10">
+                <h3 className="flex items-center gap-2 text-xl font-bold font-[Poppins] text-[#4A148C] text-shadow-md/10">
                   Próximo Produto{" "}
                   <FaArrowRight className="text-[#f1720a] group-hover:translate-x-1.5 transition-transform duration-200 ease-in-out" />
                 </h3>
-                <div className="px-15 py- border-b-4 border-[#4A148C]">
+                <div className="min-w-[170px] px-15 border-b-4 border-[#4A148C]">
                   <Image
                     src={nextProduct.imagem}
                     alt={`${nextProduct.nome}`}
@@ -180,7 +180,7 @@ export default async function Products({ params }: ProductDetailsProps) {
                     height={75}
                   />
                 </div>
-                <p className="text-xl font-semibold font-[Lobster] bg-gradient-to-l from-[#4A148C] to-[#F17E21] bg-clip-text text-transparent px-2">
+                <p className="text-xl text-center font-semibold font-[Lobster] bg-gradient-to-l from-[#4A148C] to-[#F17E21] bg-clip-text text-transparent px-2">
                   {nextProduct.nome}
                 </p>
               </div>

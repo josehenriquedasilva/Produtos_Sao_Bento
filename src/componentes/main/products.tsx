@@ -16,10 +16,10 @@ export default function Products() {
         {products.map((product) => (
           <FadeInOnScroll key={product.id} direction={"left"}>
             <Link
-              href={`/pages/products/${product.slug}`}
+              href={`/produtos/${product.slug}`}
               className="group block"
             >
-              <div className="bg-white rounded-xl overflow-hidden shadow-xl transition-all duration-200 hover:shadow-2xl hover:ring-2 hover:ring-[#F17E21] hover:-translate-y-1">
+              <div className=" bg-white rounded-xl overflow-hidden shadow-xl transition-all duration-200 hover:shadow-2xl hover:ring-2 hover:ring-[#F17E21] hover:-translate-y-1">
                 <div className="p-5 flex justify-center items-center h-55 sm:h-80 bg-[#f7f7f7] border-b border-gray-100">
                   <Image
                     src={product.imagem}
@@ -29,8 +29,8 @@ export default function Products() {
                     className="w-auto h-full object-contain transition-transform duration-300 group-hover:scale-[1.02]"
                   />
                 </div>
-                <div className="py-4 text-center">
-                  <h3 className="text-base md:text-xl lg:text-2xl font-extrabold text-[#4A148C] mb-2 transition-colors duration-300 group-hover:text-[#F17E21]">
+                <div className="flex flex-col justify-between h-33 items-center py-4 text-center">
+                  <h3 className="text-[19px] md:text-2xl lg:text-2xl font-extrabold text-[#4A148C] mb-2 transition-colors duration-300 group-hover:text-[#F17E21]">
                     {product.nome}
                   </h3>
                   <button className="bg-[#F17E21] text-white px-5 py-2 text-sm rounded-xl font-bold shadow-md transition-colors duration-200 hover:bg-[#b95f15] hover:text-[#6520b9] hover:shadow-lg focus:outline-none cursor-pointer">
