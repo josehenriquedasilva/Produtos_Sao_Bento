@@ -98,7 +98,7 @@ const jsonLd = {
       url: baseUrl,
       logo: {
         "@type": "ImageObject",
-        url: `${baseUrl}/logoSB.png`,
+        url: `/logoSB.png`,
       },
       description: "Produtos São Bento, Com Amor e Qualidade Para Sua Mesa.",
       // Adicionar o email
