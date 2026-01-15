@@ -5,7 +5,8 @@ import Header from "@/componentes/header/page";
 import Footer from "@/componentes/footer/footer";
 
 const title = "Produtos São Bento";
-const fullBrandTitle = "Produtos São Bento - Com Amor e Qualidade para Sua Mesa.";
+const fullBrandTitle =
+  "Produtos São Bento - Com Amor e Qualidade para Sua Mesa.";
 const description =
   "Descubra o sabor e a tradição das bolachas Produtos São Bento. Com amor e qualidade para sua mesa. Entre em contato e peça já!";
 const keywords =
@@ -70,7 +71,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: `${baseUrl}/logoSB.png`,
+        url: `/logoSB.png`,
         width: 1200,
         height: 630,
         alt: `${title} | Com Amor e Qualidade para Sua Mesa`,
@@ -78,6 +79,12 @@ export const metadata: Metadata = {
     ],
     locale: "pt_BR",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${title} | Com Amor e Qualidade para Sua Mesa`,
+    description: description,
+    images: [`/logoSB.png`],
   },
 };
 
