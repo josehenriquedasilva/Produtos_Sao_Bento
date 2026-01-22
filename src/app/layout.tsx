@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: `https://produtos-sao-bento.vercel.app/logoSB-compartilhamento-2.jpg`,
+        url: `https://produtos-sao-bento.vercel.app/logo-SB-2.WebP`,
         width: 1200,
         height: 630,
         alt: `${title} | Com Amor e Qualidade para Sua Mesa`,
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${title} | Com Amor e Qualidade para Sua Mesa`,
     description: description,
-    images: [`https://produtos-sao-bento.vercel.app/logoSB-compartilhamento-2.jpg`],
+    images: [`https://produtos-sao-bento.vercel.app/logo-SB-2.WebP`],
   },
 };
 
