@@ -7,7 +7,7 @@ import FadeInOnScroll from "../FadeInOnScroll/page";
 export default function Footer() {
   return (
     <footer className="bg-[#4A148C] py-2">
-      <section className="max-w-[830px] mx-auto flex flex-col gap-3 justify-center items-center">
+      <section className="max-w-[830px] mx-auto flex flex-col gap-3 justify-center items-center overflow-hidden">
         <FadeInOnScroll>
           <section className="flex flex-col justify-center items-center">
             <div className="w-[100%]">
