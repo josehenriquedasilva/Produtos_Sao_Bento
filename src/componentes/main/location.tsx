@@ -5,7 +5,7 @@ export default function Location() {
   return (
     <section
       id="endereço"
-      className="bg-white flex flex-col justify-center items-center px-5 py-10"
+      className="bg-white flex flex-col justify-center items-center px-5 py-10 overflow-hidden"
     >
       <FadeInOnScroll direction={"down"}>
         <h1 className="flex gap-2 items-center text-2xl text-[#4A148C] font-bold text-shadow-lg/10 font-[Poppins]">

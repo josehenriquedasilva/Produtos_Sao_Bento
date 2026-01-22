@@ -21,7 +21,7 @@ export default function Info() {
   return (
     <section
       id="sobre"
-      className="flex flex-col justify-center items-center gap-5 px-5 py-10 text-[#4A148C] max-w-[1024px] mx-auto"
+      className="flex flex-col justify-center items-center gap-5 px-5 py-10 text-[#4A148C] max-w-[1024px] mx-auto overflow-hidden"
     >
       <FadeInOnScroll direction={"up"}>
         <h2 className="flex gap-2 items-center text-3xl font-bold text-shadow-lg/10 font-[Poppins]">

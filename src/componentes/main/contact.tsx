@@ -7,7 +7,7 @@ import FadeInOnScroll from "../FadeInOnScroll/page";
 
 export default function Contact() {
   return (
-    <section id="contato" className="flex flex-col gap-5 pt-5 bg-white">
+    <section id="contato" className="flex flex-col gap-5 pt-5 bg-white overflow-hidden">
       <FadeInOnScroll direction={"down"}>
         <h2 className="flex gap-2 items-center justify-center text-2xl text-center font-bold font-[Poppins] text-[#4A148C] text-shadow-lg/10">
           Contate-nós!

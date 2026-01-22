@@ -5,7 +5,7 @@ import FadeInOnScroll from "../FadeInOnScroll/page";
 
 export default function Products() {
   return (
-    <section id="produtos" className="bg-[#FFF8F0] py-16 md:py-24">
+    <section id="produtos" className="bg-[#FFF8F0] py-16 md:py-24 overflow-hidden">
       <FadeInOnScroll direction={"down"}>
         <h2 className="flex justify-center items-center gap-3 text-4xl lg:text-5xl text-center font-bold font-[Lobster] bg-gradient-to-r from-[#4A148C] to-[#F17E21] bg-clip-text text-transparent mb-12">
           Nossos Produtos
