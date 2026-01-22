@@ -71,7 +71,7 @@ export default function Header() {
       <nav
         className={`${
           menu ? `translate-x-0` : `translate-x-full`
-        } absolute h-screen flex flex-col items-end px-5 py-8 gap-5 w-[85%] right-0 top-0 text-shadow-lg/10 transition-all duration-200 z-30 bg-[#4A148C] md:hidden`}
+        } fixed h-full flex flex-col items-end px-5 py-8 gap-5 w-[85%] right-0 top-0 text-shadow-lg/10 transition-all duration-200 z-30 bg-[#4A148C] md:hidden`}
       >
         <button className="text-[#F17E21] cursor-pointer " onClick={toggleMenu}>
           <RiCloseLargeFill className="size-7 hover:size-8 duration-200" />
