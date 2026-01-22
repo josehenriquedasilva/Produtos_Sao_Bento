@@ -75,7 +75,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: `${title} | Com Amor e Qualidade para Sua Mesa`,
-        type: "image/jpg",
+        type: "image/WebP",
       },
     ],
     locale: "pt_BR",
