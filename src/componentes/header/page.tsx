@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <header className="flex px-5 pb-13 md:pb-0 justify-between items-center h-[145px] bg-[url(/header.png)] bg-no-repeat bg-left-top bg-cover relative z-10 lg:px-20">
-      <Link href="/">
+      <Link href="/" id="logo">
         <Image
           src="/logoSB.png"
           alt="Logo São Bento"

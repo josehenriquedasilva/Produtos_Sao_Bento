@@ -22,7 +22,7 @@ export default function Footer() {
             <nav className="text-lg font-bold text-[#F17E21] text-shadow-lg/10">
               <ul className="flex flex-col md:flex-row gap-1.5 justify-center items-center md:w-[310px] md:flex-wrap">
                 <li className="hover:-translate-y-1 hover:translate-x-0.5 transition-transform duration-200 ease-in-out">
-                  <Link href="/#introduction">Inicio</Link>
+                  <Link href="/#logo">Inicio</Link>
                 </li>
                 <li className="hover:-translate-y-1 hover:translate-x-0.5 transition-transform duration-200 ease-in-out">
                   <Link href="/#sobre">Sobre Nós</Link>
