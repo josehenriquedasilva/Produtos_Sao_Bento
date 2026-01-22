@@ -111,7 +111,7 @@ export default async function Products({ params }: ProductDetailsProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
       />
       <div className="flex flex-col gap-3 items-center my-[30px]">
-        <p className="underline group self-start ml-4 md:ml-10">
+        <p className="underline group self-start ml-4 md:ml-10 lg:ml-60">
           <Link
             href="/#produtos"
             className="flex items-center gap-1 font-bold font-[Poppins] text-[#4A148C] text-shadow-md/10 hover:text-[#6520b9] transition-colors duration-200 ease-in-out"
