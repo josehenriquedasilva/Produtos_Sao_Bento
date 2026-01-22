@@ -5,6 +5,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { products } from "@/data/products";
 import { Product } from "@/types/products";
 import { Metadata } from "next";
+import ScrollToTop from "@/componentes/utils/scroolToTop";
 
 interface ProductDetailsProps {
   params: Promise<{
@@ -104,6 +105,7 @@ export default async function Products({ params }: ProductDetailsProps) {
 
   return (
     <div className="flex flex-col gap-5 bg-[#FFF8F0] mt-[-43px] pt-[43px]">
+      <ScrollToTop />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
@@ -163,10 +165,7 @@ export default async function Products({ params }: ProductDetailsProps) {
             </section>
           </section>
           <section>
-            <Link
-              href={`/produtos/${nextProduct.slug}`}
-              className="group"
-            >
+            <Link href={`/produtos/${nextProduct.slug}`} className="group">
               <div className="bg-[#f17f2183] group-hover:bg-[#f17f21c0] transition-colors duration-200 ease-in-out w-[90%] md:w-[95%] mx-auto flex flex-col items-center p-5 rounded-md gap-5 mb-5">
                 <h3 className="flex items-center gap-2 text-xl font-bold font-[Poppins] text-[#4A148C] text-shadow-md/10">
                   Próximo Produto{" "}
