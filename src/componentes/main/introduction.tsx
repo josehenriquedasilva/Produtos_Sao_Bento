@@ -4,7 +4,7 @@ import FadeInOnScroll from "../FadeInOnScroll/page";
 
 export default function Introduction() {
   return (
-    <section className="bg-[#4A148C] pt-16 pb-10 md:pt-0 md:pb-0 flex justify-center">
+    <section className="bg-[#4A148C] pt-16 pb-10 md:pt-0 md:pb-0 flex justify-center overflow-hidden">
       <div className="text-white h-full md:w-[50%] p-5 md:p-16 lg:pl-40 flex justify-around">
         <FadeInOnScroll direction={"left"}>
           <h1 className="font-[Poppins] text-3xl md:text-6xl text-shadow-lg/30 font-bold leading-tight mb-4 max-w-[400px]">
