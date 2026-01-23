@@ -91,18 +91,18 @@ export default function Info() {
             <p className="font-semibold text-lg text-center px-2">
               {" "}
               Surgiu então a ideia de alugar uma padaria que a algum tempo
-              estava fechada, e com fé e coragem juntamente com meu irmão e o
+              estava fechada, e com fé e coragem juntamente com seu irmão e o
               padeiro, no dia 04 de fevereiro do ano de 2020, surgiu os
               primeiros pacotes de bolachas.
             </p>
             <p className="font-semibold text-lg text-center px-2">
               Que de início só foram distribuídos para alguns familiares e
-              amigos e mercadinhos próximos, assim aprovado por todos começamos
+              amigos e mercadinhos próximos, assim aprovado por todos começaram
               a expandir para outros mercados e cidades vizinhas.
             </p>
             <p className="font-semibold text-lg text-center px-2">
               {" "}
-              Desde então permanecemos produzindo, inovando e aperfeiçoando cada
+              Desde então permanecem produzindo, inovando e aperfeiçoando cada
               vez mais nossos produtos. A fim de alcançarmos os resultados
               almejados por nós, nossa equipe e clientes.
             </p>
