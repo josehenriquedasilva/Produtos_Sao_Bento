@@ -75,7 +75,7 @@ export default function Contact() {
             <section>
               <h3 className="font-bold text-[#4A146C] font-[Poppins]">Email</h3>
               <p className="text-sm font-semibold text-[#4A146C]">
-                produtossaobento@gmail.com
+                produtossaobento2023@gmail.com
               </p>
             </section>
           </Link>

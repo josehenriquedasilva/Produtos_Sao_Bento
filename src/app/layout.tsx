@@ -102,12 +102,11 @@ const jsonLd = {
         url: `/logoSB.png`,
       },
       description: "Produtos São Bento, Com Amor e Qualidade Para Sua Mesa.",
-      // Adicionar o email
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "customer service",
         telephone: "+55 81 98238-4765",
-        email: "contato@produtos_sao_bento.com.br",
+        email: "produtossaobento2023@gmail.com",
       },
       // Adicionar o link do WhatsApp
       sameAs: [
