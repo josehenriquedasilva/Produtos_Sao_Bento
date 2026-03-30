@@ -22,7 +22,7 @@ export default function Contact() {
         </FadeInOnScroll>
         <section className="w-[100%] px-5 flex flex-col justify-center items-start gap-3 max-w-[1024px] mx-auto">
           <Link
-            href="#"
+            href="https://wa.me/5581982384765"
             className="w-[100%] flex py-2 px-2 items-center gap-3 bg-amber-100 rounded-xl shadow-lg/20 md:max-w-[70%] mx-auto hover:translate-x-0.5 hover:-translate-y-1.5 transition-transform duration-200 ease-in-out"
             target="_blank"
             rel="noopener noreferrer"
@@ -64,7 +64,7 @@ export default function Contact() {
             </section>
           </Link>
           <Link
-            href="#"
+            href="mailto:produtossaobento2023@gmail.com"
             className="w-[100%] flex py-2 px-2 items-center gap-3 bg-amber-100 rounded-xl shadow-lg/20 md:max-w-[70%] mx-auto hover:translate-x-0.5 hover:-translate-y-1.5 transition-transform duration-200 ease-in-out"
             target="_blank"
             rel="noopener noreferrer"
